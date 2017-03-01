@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="controllers.js"></script>
+  </head>﻿
+  <body ng-init="name = 'ss'">
+
+    <div ng-controller="DemoCtrl">       
+        <p>Hello <span ng-bind="name"></span></p>
+        <p>1 + 5 = {{1 + 5}}</p>
+    </div>
+    {{name}}
+
+  </body>
+</html>
